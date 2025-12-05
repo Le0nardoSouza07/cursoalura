@@ -22,7 +22,7 @@ public class Filme extends Titulo implements Classificavel {
 
     @Override
     public int getClassificacao() {
-        return (int) fazMediaDasAvaliacoes() / 2; // fiz o (int) pq o metodo fazMedia é double, porem eu quero so a parte inteira
+        return (int) fazMediaDasAvaliacoes() / 5; // fiz o (int) pq o metodo fazMedia é double, porem eu quero so a parte inteira
         // entao eu forco a IDE para ela entender oq eu quero, o nome disso é cast
     }
 
